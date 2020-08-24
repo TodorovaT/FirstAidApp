@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarSafety"
+    android:background="#FFEBBC"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/picture"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#611919"
+        android:text="Општи постапки при сообраќајна незгода">
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/description"
+        android:src="@drawable/kit">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/description"
+        app:layout_constraintTop_toBottomOf="@+id/picture"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#611919"
+        android:scrollbars="vertical"
+        android:text="Обезбедување на просторот околу повредениот:\n•	Сигурносниот триаголник поставете го на:\n\to	На коловоз: околу 70 сантиметри од банкината;
+\n\to	На автопат: 100 метри зад местото на несреќата;
+\n\to	На кривина: пред почетокот на кривината;
+\n\to	На двонасочен пат: 30 метри пред и зад местото на несреќата.
+\n•	Светлосна сигнализација
+\n•	Лична безбедност
+\n•	Пристап и преглед на повредениот
+\n•	Согласност за укажување на прва помош
+\n•	Телефонски броеви
+\n\to	ИМП: 194
+\n\to	Противпожарна: 193
+\n\to	Полиција: 192
+\n•	Преместување на повредениот од местото на несреќата, постапка:
+\n\t1.	Пристапете кон главата на повредениот
+\n\t2.	Лесно исправете го трупот на повредениот и потпрете го на вашите колена.
+\n\t3.	Рацете поставетеги под пазувите на повредениот.
+\n\t4.	Главата и горниот дел од телото на повредениот потпрете ги на вашите гради.
+\n\t5.	При извлекувањето, движете се наназад.
+\n•	Извлекување на повредениот од моторно возило, постапка:
+\n\t1.	Ослободете го повредениот од заптитнит колан.
+\n\t2.	Проверете дали нозете на повредениот се слободни и подвижни.
+\n\t3.	Пристапете кон повреденит од страната на грбот и поставете ги рацете под пазувите.
+\n\t4.	Едната рака свиткајте ја во лакот и цврсто фатете ја подлактицата од горната страна, потиснувајќи ја кон телото на повредениот во висина на стомакот.
+\n\t5.	При извлекувањето, навалете се кон назад, така што тежината на повредениот ќе се пренесе на вашите натколеници.
+\n\t6.	Главата и горниот дел од телото потпрете ги на вашите гради.
+\n\t7.	При извлекувањето, движете се кон назад.
+\n•	Отстранување на кацига, постапка:
+\n\t1.	Седнете на колена зад главата на повредениот.
+\n\t2.	Фатете ја долната вилица на повредениот и долниот раб на кацигата.
+\n\t3.	Другото лице седнува на колена од страна на повредениот, го отвара прозорчето а кацигата и го ослободува коланот на кацигата.
+\n\t4.	Првото лице ги држи главата и вратот на повредениот, додека вие ја извлекувате кацигата.
+\n\t5.	Откога ќе ја извадите кацигата, фатете ја главата на повредениот со дланките од двете страни во пределот на уите и поставете ја на подлогата.
+">
+    </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>

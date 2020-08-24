@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/ic_baseline_phone"
+        android:title="Телефон"
+        app:showAsAction="always"
+        android:onClick="phone">
+    </item>
+
+    <item
+        android:id="@+id/carsafety"
+        android:icon="@drawable/ic_baseline_car"
+        android:title="Патна сигурност"
+        app:showAsAction="always"
+        android:onClick="car">
+    </item>
+</menu>
